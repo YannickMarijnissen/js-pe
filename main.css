@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+   
+}
+
+.input-controls{
+    display: flex;
+    justify-content: left;
+    gap: 1rem;
+    padding: 1rem;
+    width: 66%;
+}
+.Button-controls{
+    display: flex;
+    justify-content: left;
+    gap: 10rem;
+    padding: 1rem;
+    width: 66%;
+}
+main{
+    width: 100%;
+    max-width: 750px;
+    margin: 2rem auto;
+}
+button{
+    background:blue;
+    cursor: pointer;
+    text-transform: uppercase;
+    padding: 0.5rem 1.5rem;
+    color: white;
+    transition: 0.4s;
+    font-size: 1,5rem;
+}
+
+
